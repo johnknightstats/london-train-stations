@@ -1,0 +1,3 @@
+# Ignore actual secrets
+
+config/config_template.json
