@@ -1,3 +1,8 @@
+
+##################################################
+### This pulls the raw data from national rail ###
+##################################################
+
 import os
 import requests
 import json

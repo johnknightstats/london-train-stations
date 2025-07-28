@@ -1,3 +1,8 @@
+
+#########################################################################################
+### Query the SQLite database for services that start at or stop at a London terminal ###
+#########################################################################################
+
 import sqlite3
 import pandas as pd
 import re

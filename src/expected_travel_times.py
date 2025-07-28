@@ -1,3 +1,8 @@
+
+############################################################################
+### Script to calculate expected times from terminal to all destinations ###
+############################################################################
+
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta

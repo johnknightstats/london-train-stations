@@ -1,3 +1,8 @@
+
+#####################################################################
+### Script to create a SQLite database with tables for train data ###
+#####################################################################
+
 import sqlite3
 
 conn = sqlite3.connect("db/timetable.db")

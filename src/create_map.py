@@ -1,4 +1,7 @@
-# create_map.py
+
+##########################################################################
+### Script to create map of London railway stations with commute times ###
+##########################################################################
 
 import pandas as pd
 import folium
@@ -106,8 +109,8 @@ except FileNotFoundError:
 
 # Save the map
 os.makedirs("output", exist_ok=True)
-m.save("output/station_map.html")
-print("Map saved to output/station_map.html")
+m.save("output/london_commuter_stations.html")
+print("Map saved to output/london_commuter_stations.html")
 
 
 
